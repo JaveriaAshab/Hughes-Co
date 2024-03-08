@@ -1,0 +1,339 @@
+body{
+    overflow-x: hidden;
+}
+.images3{
+    height: 100%;
+    width: 100%;
+    margin-top: 45px;
+    margin-left: 175px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img03{
+    width: 605px;
+    height: 357px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img03{
+    width: 605px;
+    height: 357px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img03:hover > #img03{
+    transform: scale(1.2);
+}
+.content3 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    width: 605px;
+}
+.content3 p{
+    width: 605px;
+    font-family: Tahoma, sans-serif;
+    font-size: 19px;
+    padding-top: 27px;
+    line-height: 35px;
+}
+
+.images4{
+    height: 100%;
+    width: 100%;
+    margin-top: -550px;
+    margin-left: 875px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img04{
+    width: 605px;
+    height: 357px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img04{
+    width: 605px;
+    height: 357px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img04:hover > #img04{
+    transform: scale(1.2);
+}
+.content4 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    width: 665px;
+}
+.content4 p{
+    width: 605px;
+    font-family: Tahoma, sans-serif;
+    font-size: 19px;
+    padding-top: 27px;
+    line-height: 35px;
+}
+
+
+.images5{
+    height: 100%;
+    width: 100%;
+    margin-top: -590px;
+    margin-left: 875px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img05{
+    width: 605px;
+    height: 357px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img05{
+    width: 605px;
+    height: 357px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img05:hover > #img05{
+    transform: scale(1.2);
+}
+.content5 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 25px;
+    line-height: 35px;
+    width: 605px;
+}
+.content5 p{
+    width: 605px;
+    font-family: Tahoma, sans-serif;
+    font-size: 19px;
+    padding-top: 27px;
+    line-height: 35px;
+}
+
+.images6{
+    height: 100%;
+    width: 100%;
+    margin-top: 50px;
+    margin-left: 175px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img06{
+    width: 405px;
+    height: 257px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img06{
+    width: 405px;
+    height: 257px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img06:hover > #img06{
+    transform: scale(1.2);
+}
+.content6 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    width: 405px;
+}
+
+.images7{
+    height: 100%;
+    width: 100%;
+    margin-top: -319px;
+    margin-left: 625px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img07{
+    width: 405px;
+    height: 257px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img07{
+    width: 405px;
+    height: 257px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img07:hover > #img07{
+    transform: scale(1.2);
+}
+.content7 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    width: 405px;
+}
+
+.images8{
+    height: 100%;
+    width: 100%;
+    margin-top: -354px;
+    margin-left: 1075px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img08{
+    width: 405px;
+    height: 257px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img08{
+    width: 405px;
+    height: 257px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img08:hover > #img08{
+    transform: scale(1.2);
+}
+.content8 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    width: 405px;
+}
+
+.images9{
+    height: 100%;
+    width: 100%;
+    margin-top: -354px;
+    margin-left: 625px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img09{
+    width: 405px;
+    height: 257px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img09{
+    width: 405px;
+    height: 257px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img09:hover > #img09{
+    transform: scale(1.2);
+}
+.content9 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    width: 405px;
+}
+
+.images10{
+    height: 100%;
+    width: 100%;
+    margin-top: -389px;
+    margin-left: 1075px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img10{
+    width: 405px;
+    height: 257px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img10{
+    width: 405px;
+    height: 257px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img10:hover > #img10{
+    transform: scale(1.2);
+}
+.content10 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    width: 405px;
+}
+
+.images11{
+    height: 100%;
+    width: 100%;
+    margin-top: -321px;
+    margin-left: 1075px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    cursor: pointer;
+}
+.img11{
+    width: 405px;
+    height: 257px;
+    /* position: relative; */
+    overflow: hidden;
+    flex-basis: 50%;
+}
+#img11{
+    width: 405px;
+    height: 257px;
+    display: block;
+    transition: all 0.3s ease-in-out;
+}
+.img11:hover > #img11{
+    transform: scale(1.2);
+}
+.content11 h2{
+    /* background-color: blueviolet; */
+    margin-top: 8px;
+    padding-top: 20px;
+    font-family: Tahoma, sans-serif;
+    font-size: 20px;
+    line-height: 35px;
+    width: 405px;
+}

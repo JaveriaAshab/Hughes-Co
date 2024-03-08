@@ -1,0 +1,326 @@
+html{
+    height: 100%;
+}
+body{
+    position: relative;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+/* footer{
+    margin-top: 100%;
+} */
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+.Topnav{
+    background-color: rgb(255, 255, 255);
+    height: 100px;
+}
+#logo{
+    margin-top: 23px;
+    margin-left: 152px;
+    height: 43px;
+    background-color: rgb(255, 255, 255);
+}
+.options{
+    float: right;
+    background-color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-right: 160px;
+    margin-top: 40px;
+    word-spacing: 36px;
+    letter-spacing: 0.3px;
+}
+#options:hover{
+    border-bottom: 2px rgb(255, 238, 0) solid;
+    line-height: 5px;
+    padding-bottom: 3px;
+}
+/* .options a.active{
+    border-bottom: 1.5px rgb(255, 238, 0) solid;
+    line-height: 5px;
+    padding-bottom: 3px;
+} */
+.logo-img{
+    text-align: left;
+    margin-left: -23px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 282px;
+    z-index: 300px;
+    position: absolute;
+}
+#logo-img{
+    color: rgb(40, 40, 40);
+}
+.gray-footer{
+    background-color: rgb(40, 40, 40);
+    height: 350px;
+    width: 1582px;
+    position: absolute;
+    margin-top: 137px;
+    font-size: 47px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    line-height: 80px;
+}
+#gray-footer{
+    color: white;
+    margin-left: 140px;
+    margin-top: 80px;
+}
+.side-text{
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+
+}
+#side-text{
+    color: white;
+    margin-top: 230px;
+    margin-left: 800px;
+}
+input[type="button"]{
+    background-color: yellow;
+    font-weight: 800;
+    font-stretch: ultra-expanded;
+    padding: 13px;
+    margin-top: 8px;
+    margin-left: 800px;
+    border: none;
+}
+.b-footer{
+    background-color: black;
+    margin-top: 487px;
+    height: 200px;
+    width: 1582px;
+    position: relative;
+}
+#l-i{
+    margin-left: 150px;
+    height: 75px;
+    margin-top: 50px;
+    position: absolute;
+}
+#rights{
+    position: absolute;
+    color: white;
+    margin-left: 250px;
+    margin-top: 75px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+#beside-rights{
+    position: absolute;
+    color: white;
+    margin-left: 580px;
+    margin-top: 75px;
+    font-family: sans-serif;
+    font-size: 17px;
+    line-height: 25px;
+}
+.fa-square-facebook{
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 75px;
+    font-size: 37px;
+}
+.fa-linkedin-in{
+    position: absolute;
+    margin-left: 940px;
+    margin-top: 75px;
+    font-size: 37px;
+}
+.fa-instagram{
+    position: absolute;
+    margin-left: 1000px;
+    margin-top: 75px;
+    font-size: 37px;
+}
+.chat{
+    position: fixed;
+    bottom: 15px;
+    left: 1510px;
+    z-index: 1;
+    float: right;
+    margin-top: 650px;
+    background-color: rgb(45, 45, 45);
+    box-shadow: black 2px 1px;
+    height: 55px;
+    width: 55px;
+    border-radius: 30px;
+    text-align: center;
+}
+.fa-message{
+    margin-top: 15px;
+    font-size: 23px;
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    color: black;
+    margin-top: 100px;
+    width: 1585px;
+    height: 100px;
+}
+#second2{
+    font-family: Tahoma, sans-serif;
+    font-size: 49px;
+    font-weight: 800;
+    margin-left: 600px;
+    margin-top: 37px;
+}
+#second3{
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 600px;
+    margin-top: 20px;
+    border-bottom: solid 2.5px yellow;
+    line-height: 17px;
+    position: absolute;
+    transition: all 0.1s ease-in-out;
+}
+#second3:hover{
+    background-color: yellow;
+    cursor: pointer;
+    border: none;
+}
+#banner{
+    height: 460px;
+    position: relative;
+    top: 390px;
+}
+.content{
+    height: 460px;
+    position: absolute;
+    top: 495px;
+    font-size: xx-large;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.content h1{
+    color: white;
+    margin-left: 145px;
+    margin-top: 140px;
+}
+.content p{
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-left: 145px;
+    margin-top: 37px;
+    color: white;
+    border-bottom: solid 2px yellow;
+    position: absolute;
+    padding-bottom: 0px;
+    transition: all 0.1s ease-in-out;
+}
+.content p:hover{
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+    border: none;
+}
+.banner02{
+    width: 1583px;
+    height: 642px;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    margin-top: 950px;
+}
+#banner02{
+    height: 450px;
+    margin-left: 170px;
+    margin-top: 130px;
+}
+.content02 h1{
+    color: rgb(0, 0, 0);
+    margin-left: 800px;
+    margin-top: -410px;
+    font-size: 45px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 55px;
+}
+.content02 p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 800px;
+    line-height: 25px;
+}
+#p2{
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 17px;
+    margin-left: 800px;
+    margin-top: 27px;
+    color: rgb(0, 0, 0);
+    border-bottom: solid 2px yellow;
+    position: absolute;
+    padding-bottom: 0px;
+    transition: all 0.1s ease-in-out;
+}
+#p2:hover{
+    color: black;
+    background-color: yellow;
+    cursor: pointer;
+    border: none;
+}
+.content03 h1{
+    margin-top: 1101px;
+    margin-left: 170px;
+    color: black;
+    font-size: 60px;
+    font-family: Tahoma, sans-serif;
+}
+.lists{
+    display: flex;
+    margin-left: 180px;
+    margin-top: 30px;
+    gap: 225px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+}
+.banner04{
+    margin-top: 75px;
+    background-color: rgb(255, 255, 255);
+}
+#banner04{
+    height: 30px;
+    margin-left: 180px;
+}
+.banner04 p{
+    text-wrap: wrap;
+    color: rgb(0, 0, 0);
+    font-size: 26px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    width: 1150px;
+    line-height: 43px;
+    margin-left: 180px;
+    margin-top: 50px;
+}
+#t2{
+    color: black;
+    font-size: 19px;
+    font-weight: 200;
+}
+#t3{
+    color: black;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 0;
+    line-height: 23px;
+    text-wrap: wrap;
+    width: 350px;
+}

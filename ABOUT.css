@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    color: black;
+    margin-top: 100px;
+    width: 1585px;
+    height: 100px;
+}
+#second2{
+    font-family: Tahoma, sans-serif;
+    font-size: 41px;
+    line-height: 54px;
+    width: 840px;
+    font-weight: 800;
+    margin-left: 600px;
+    margin-top: 37px;
+}
+.banner{
+    height: 450px;
+    background-color: rgb(235, 235, 235);
+    margin-top: 310px;
+    overflow: hidden;
+}
+.banner > img{
+    height: 450px;
+    width: 1400px;
+    position: relative;
+}
+.content{
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    position: absolute;
+    margin-top: -85px;
+    font-size: 45px;
+    width: 1585px;
+    height: 450px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+}
+.content h1{
+    margin-left: 255px;
+    margin-top: 160px;
+}
+.team{
+    background-color: rgb(255, 255, 255);
+    height: 900px;
+}
+.h1{
+    background-color: rgb(255, 255, 255);
+    height: 310px;
+}
+.h1 > h1{
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    font-size: 45px;
+    padding: 133px;
+    padding-left: 143px;
+}
+.team-members{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    gap: 100px;
+    overflow: hidden;
+    margin-left: 173px;
+    position: relative;
+}
+.t-m > img {
+    transition: all 0.2s ease-in-out;
+    display: block;
+    height: 350px;
+    margin-top: 5px;
+}
+.t-m > h3{
+    font-family: sans-serif;
+    font-size: 27px;
+    margin-top: 17px;
+}
+.t-m > p{
+    font-family: sans-serif;
+    font-size: 17px;
+    margin-top: 8px;
+}
+.t-m > img:hover{
+    transform: scale(1.1);
+}
+.list h1{
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-left: 148px;
+    font-size: 40px;
+}
+.lists{
+    display: flex;
+    margin-left: 148px;
+    margin-top: 40px;
+    gap: 225px;
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    line-height: 35px;
+}

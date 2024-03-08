@@ -1,0 +1,133 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow-x: hidden;
+}
+.second{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    color: black;
+    margin-top: 100px;
+    width: 1585px;
+    height: 100px;
+}
+#second{
+    font-family: Tahoma, sans-serif;
+    font-size: 45px;
+    font-weight: 800;
+    margin-left: 168px;
+    margin-top: 53px;
+}
+#second2{
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: lighter;
+    margin-left: 168px;
+    width: 610px;
+    line-height: 38px;
+}
+form{
+    margin-top: 320px;
+    background-color: rgb(41, 41, 41);
+    height: 1200px;
+}
+form > label{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 500px;
+    font-size: 17px;
+}
+form > input{
+    margin-left: 500px;
+    height: 50px;
+    width: 600px;
+}
+form > ::placeholder{
+    font-size: 17px;
+    opacity: 1;
+    font-family: sans-serif;
+    font-weight: lighter;
+    padding: 10px;
+}
+input[type="checkbox"]{
+    margin-left: 215px;
+    margin-top: 15px;
+    height: 25px;
+    display: flex;
+}
+form > p{
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    margin-left: 540px;
+    margin-top: -20px;
+}
+#service1{
+    margin-left: 550px;
+    margin-top: -20px;
+}
+.service1{
+    margin-left: 875px;
+}
+.ad{
+    margin-left: 500px;
+}
+.ad > label{
+    font-size: 17px;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+.ad > input {
+    height: 250px;
+    width: 600px;
+    position: relative;
+}
+.ad > ::placeholder{
+    font-size: 17px;
+    font-family: sans-serif;
+    padding: 10px;
+    position: absolute;
+    margin-top: -115px;
+}
+.request > input{
+    margin-left: 500px;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.img{
+    display: flex;
+    flex-wrap: wrap;
+}
+.img > img{
+    height: 800px;
+}
+.img > p{
+    font-size: 19px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 250px;
+    margin-left: 45px;
+    text-wrap: wrap;
+    width: 700px;
+    line-height: 32px;
+}
+.img > label{
+    position: absolute;
+    font-size: 19px;
+    font-family: Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: 450px;
+    margin-left: 845px;
+    text-wrap: wrap;
+    width: 700px;
+    line-height: 32px;
+}
+
+
